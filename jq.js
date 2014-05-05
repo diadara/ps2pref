@@ -1,8 +1,8 @@
 //Run this in the console to fill the form with required values
 
-chrome.storage.local.get('preferences', function (result) {
-       var c = result.preferences;
-        console.log(result.preferences);
+chrome.storage.local.get('pspref', function (result) {
+       var c = result.pspref;
+        console.log(result.pspref);
         var inputs = document.getElementsByTagName("input");
         for (x=0;x<inputs.length-1;x++){
 /*
